@@ -4,7 +4,7 @@ import Post from '../Post/Post';
 
 const Home = () => {
 const [posts, setPosts] =useState([])
-// import Post from '../Component/Post/Post';
+
 
 
   useEffect(()=>{

@@ -6,8 +6,7 @@ import Home from './Component/Home/Home';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route,g
 } from "react-router-dom";
 import NotMatched from './Component/NotMatched/NotMatched';
 import PostDetail from './Component/PostDetail/PostDetail';

@@ -69,13 +69,3 @@ export default Post;
 
 
 
-// const Post = (props) => {
-//     const { title, body} = props.post 
-//     
-// const handleClick = () => {
-
-// }                        
-//    
-//        
-//   
-//         //

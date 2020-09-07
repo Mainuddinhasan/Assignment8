@@ -56,11 +56,7 @@ const cardStyle={
     
     return (
         <div style={cardStyle}>
-           {/* <h2>User Id : {post.userId}</h2> 
-           <h2>Id :{postId}</h2> 
-           <h2>Body : {post.body}</h2> */}
-           {/* <h2>Id :{comments.name}</h2> 
-           <h2>Body : {comments.body}</h2> */}
+           
            <Card className={classes.root}>
          <CardActionArea>
         {/* <CardMedia
