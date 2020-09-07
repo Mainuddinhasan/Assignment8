@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper, Grid, Typography, makeStyles, Avatar } from "@material-ui/core";
+import { Paper, Typography, Grid, Avatar, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {

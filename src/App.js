@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Post from './Component/Post/Post';
+
 import Home from './Component/Home/Home';
 
 import {
   BrowserRouter as Router,
   Switch,
-  Route,g
+  Route,
 } from "react-router-dom";
 import NotMatched from './Component/NotMatched/NotMatched';
 import PostDetail from './Component/PostDetail/PostDetail';
