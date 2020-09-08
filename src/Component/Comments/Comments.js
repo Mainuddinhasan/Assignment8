@@ -25,16 +25,18 @@ const Comments = (props) => {
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
-        <Grid container spacing={2}>
+        <Grid container spacing={4}>
           <Grid item xs={4}>
             <div className={classes.avatar}>
               <Avatar
                 src={`https://loremflickr.com/600/400?random=${
-                  Math.random() * 10
+                  Math.random() * 12
                 }`}
                 style={{ width: "80px", height: "80px" }}
               />
-              <Typography variant="caption">{name}</Typography>
+              <Typography variant="caption">
+                {name}
+              </Typography>
             </div>
           </Grid>
           <Grid item xs={8} sm container>

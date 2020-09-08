@@ -43,6 +43,11 @@ const classes = useStyles();
         <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
+          ID : {id}
+          <br/>
+          {/* <Link to = {`/post/${id}` }> click </Link>  */}
+        </Typography>
+        <Typography className={classes.title} color="textSecondary" gutterBottom>
           {title}
           <br/>
           {/* <Link to = {`/post/${id}` }> click </Link>  */}
